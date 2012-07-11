@@ -1,5 +1,7 @@
-# .bashrc for OS X 10.5 PPC 
+# .bash_profle for OS X 10.5 PPC 
 # Ava Gailliot 
+
+export PS1="\[\e[0;30m\]\u\[\e[m\] \[\e[0;34m\]\W\[\e[m\] \[\e[0;31m\] →\[\e[m\]"
 
 export PATH=/usr/local/git/bin:$PATH
 export MANPATH=/usr/local/git/man:$MANPATH
@@ -24,8 +26,8 @@ set convert-meta off
 # Sexy Git and RVM promting 
 function git-current-branch {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1) /'
-} # Shows git branch
-export PS1="[\$(~/.rvm/bin/rvm-prompt v p g)] \$(git-current-branch)$PS1" # Shows version of RVM in use 
+}
+export PS1="\[\e[0;30m\][\[\e[m\]\[\e[0;31m\]\$(~/.rvm/bin/rvm-prompt v p g)\[\e[m\]\[\e[0;30m\]]\[\e[m\] $PS1 \$(git-current-branch) " # Shows version of RVM in use and git branch
 
 # History
 export HISTCONTROL=erasedups # Don't save duplicate lines

@@ -1,0 +1,88 @@
+foreground: #dddddd
+*background: #151515
+!Black
+*color0:           #3d3e3d
+*color8:           #5a5b5c
+!Red
+*color1:           #755a5b
+*color9:           #a37679
+!Green
+*color2:           #68755a
+*color10:          #87a376
+!Yellow
+*color3:           #756e5a
+*color11:          #a39b76
+!Blue
+*color4:           #5b6976
+*color12:          #758ba3
+!Magenta
+*color5:           #755b76
+*color13:          #9f76a3
+!Cyan
+*color6:           #5b7674
+*color14:          #75a3a1
+!White
+*color7:           #808080
+*color15:          #aeafb0
+URxvt.font:             xft:inconsolata:pixelsize=13:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.boldFont:         xft:inconsolata:pixelsize=13:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.italicFont:       xft:inconsolata:pixelsize=13:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.bolditalicFont:   xft:inconsolata:pixelsize=13:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.depth: 32
+URxvt*background: rgba:0000/0000/0700/c800
+urxvt.termName:  rxvt-256color
+urxvt.loginShell:         true
+urxvt.scrollBar:         false
+urxvt.secondaryScroll:    true
+urxvt.saveLines:         1024
+urxvt.cursorBlink:       false
+urxvt.urgentOnBell:       true
+urxvt.override-redirect: false
+!urxvt.borderLess:       false
+!urxvt.borderWidth:          1
+!urxvt.internalBorder:       0
+URxvt.perl-ext-common: default,matacher
+URxvt.urlLauncher: iron
+URxvt.matcher.button: 1
+URxvt.cursorColor:  #ff8939
+URxvt.cursorColor2: #151515
+URxvt.borderColor: #151515
+URxvt.borderless: true
+URxvt.internalBorder: 3
+URxvt.externalBorder: 3
+URxvt.geometry: 90x30
+URxvt*colorBD: #ffffa6
+URxvt*colorIT: #a761c2
+URxvt*colorUL: #6d9cbe
+
+urxvt*foreground: #999399
+urxvt*background: #151515
+
+!Black
+urxvt*color0:           #1A1A1A
+urxvt*color8:           #3d3e3d
+!urxvt*color8:           #5a5b5c
+!Red
+urxvt*color1:           #755a5b
+urxvt*color9:           #a37679
+!Green
+urxvt*color2:           #68755a
+urxvt*color10:          #87a376
+!Yellow
+urxvt*color3:           #756e5a
+urxvt*color11:          #a39b76
+!Blue
+urxvt*color4:           #5b6976
+urxvt*color12:          #758ba3
+!Magenta
+urxvt*color5:           #755b76
+urxvt*color13:          #9f76a3
+!Cyan
+urxvt*color6:           #5b7674
+urxvt*color14:          #75a3a1
+!White
+urxvt*color7:           #808080
+urxvt*color15:          #aeafb0
+
+! !}}}
+!

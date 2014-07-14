@@ -1,4 +1,4 @@
-.bash_profile
+dotfiles
 =======
 
-.bash_profile configurations for OS X 10.5 that others may find useful
+A collection of my config "dot files" that others may find useful

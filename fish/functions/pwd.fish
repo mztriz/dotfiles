@@ -1,3 +1,3 @@
 function pwd
-     command pwd $argv | cat
+     command pwd $argv | lolcat
 end

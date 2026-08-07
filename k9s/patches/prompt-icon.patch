@@ -1,0 +1,16 @@
+diff --git a/internal/ui/prompt.go b/internal/ui/prompt.go
+index d3ce802..3304d12 100644
+--- a/internal/ui/prompt.go
++++ b/internal/ui/prompt.go
+@@ -291,9 +291,9 @@ func (p *Prompt) prefixesFor(k model.BufferKind) (ic, prefix rune) {
+ 	//nolint:exhaustive
+ 	switch k {
+ 	case model.CommandBuffer:
+-		return '🐶', '>'
++		return '🌸', '>'
+ 	default:
+-		return '🐩', '/'
++		return '🌸', '/'
+ 	}
+ }
+ 

@@ -1,0 +1,50 @@
+k9s:
+  liveViewAutoRefresh: false
+  gpuVendors: {}
+  refreshRate: 2
+  apiServerTimeout: 2m0s
+  maxConnRetry: 5
+  readOnly: true
+  noExitOnCtrlC: false
+  portForwardAddress: localhost
+  ui:
+    skin: dracula
+    enableMouse: false
+    headless: false
+    logoless: false
+    crumbsless: false
+    splashless: false
+    reactive: true
+    noIcons: false
+    invert: false
+    defaultsToFullScreen: false
+    useFullGVRTitle: false
+  skipLatestRevCheck: true
+  disablePodCounting: false
+  shellPod:
+    image: busybox:1.37.0
+    namespace: default
+    limits:
+      cpu: 100m
+      memory: 100Mi
+  imageScans:
+    enable: false
+    exclusions:
+      namespaces: []
+      labels: {}
+  logger:
+    tail: 200
+    buffer: 5000
+    sinceSeconds: -1
+    textWrap: false
+    disableAutoscroll: false
+    columnLock: false
+    showTime: true
+  thresholds:
+    cpu:
+      critical: 90
+      warn: 70
+    memory:
+      critical: 90
+      warn: 70
+  defaultView: pods
